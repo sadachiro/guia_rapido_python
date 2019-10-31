@@ -24,7 +24,7 @@ list(set([1,2,3,4,4,4]))
 ```
 **normalize** - remover caracteres especiais
 ```python
-str(normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
+str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
 # --------------------------------------------------
 ```
 
@@ -42,5 +42,6 @@ str(normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII')).lower().
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzE5MjQ5LC0xMzA3NTQ5MDk0XX0=
+eyJoaXN0b3J5IjpbMTMzMzk0MjE5MywtNzkzMTkyNDksLTEzMD
+c1NDkwOTRdfQ==
 -->
