@@ -1,14 +1,14 @@
 
 
 # Guia Rápido Python
+## Comandos
 
-
-**print** - Como usar
+**print** - imprimir texto no console
 ```python
 a, b = 'Olá', 'Mundo'
 print('{} {}'.format(a, b))
-# --------------------------------------------------
 Olá Mundo
+# --------------------------------------------------
 print('*'*50)
 **************************************************
 # --------------------------------------------------
@@ -27,7 +27,7 @@ list(set([1,2,3,4,4,4]))
 
 **** - 
 ```python
-
+# --------------------------------------------------
 ```
 ---
 
@@ -36,5 +36,6 @@ list(set([1,2,3,4,4,4]))
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDQwMzA1LC0xMzA3NTQ5MDk0XX0=
+eyJoaXN0b3J5IjpbLTExMTc1NTc5MDAsLTEzMDc1NDkwOTRdfQ
+==
 -->
