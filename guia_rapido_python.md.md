@@ -28,7 +28,7 @@ list(set([1,2,3,4,4,4]))
 from unicodedata import normalize
 lista_especial = '~!@#$%^&*()_+|`-=\\[]{};:\',./<>?*-+"\n\t'
 for c in lista_especial:
-	texto_limpo = str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
+	texto_limpo = str(normalize('NFKD', 'fazendo a limpa nos chars especiais áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ~!@#$%^&*()_+|`-=\\[]{};:\',./<>?*-+').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
 print(texto_limpo)
 # --------------------------------------------------
 ```
@@ -47,6 +47,6 @@ print(texto_limpo)
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDE3MTY5LC03OTMxOTI0OSwtMTMwNz
-U0OTA5NF19
+eyJoaXN0b3J5IjpbLTEzNDk2NDE1MzgsLTc5MzE5MjQ5LC0xMz
+A3NTQ5MDk0XX0=
 -->
