@@ -24,10 +24,11 @@ list(set([1,2,3,4,4,4]))
 ```
 **normalize** - remove lista de caracteres especiais e caixa baixa
 ```python
-
+from unicodedata import normalize
 lista_especial = '~!@#$%^&*()_+|`-=\\[]{};:\',./<>?*-+"\n\t'
 for c in lista_especial:
-	print(str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, ''))
+	texto_limpo = str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
+print(texto_limpo)
 # --------------------------------------------------
 ```
 
@@ -45,6 +46,6 @@ for c in lista_especial:
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzOTM3NDM5LC03OTMxOTI0OSwtMTMwNz
-U0OTA5NF19
+eyJoaXN0b3J5IjpbLTIwNDc4NzAwNDUsLTc5MzE5MjQ5LC0xMz
+A3NTQ5MDk0XX0=
 -->
