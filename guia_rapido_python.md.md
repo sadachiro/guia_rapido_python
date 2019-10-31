@@ -22,6 +22,7 @@ set([1,2,3,4,4,4])
 list(set([1,2,3,4,4,4]))
 [1, 2, 3, 4]
 ```
+
 **normalize** - remove lista de caracteres especiais e caixa baixa
 ```python
 from unicodedata import normalize
@@ -46,6 +47,6 @@ print(texto_limpo)
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDc4NzAwNDUsLTc5MzE5MjQ5LC0xMz
-A3NTQ5MDk0XX0=
+eyJoaXN0b3J5IjpbMjEyMDE3MTY5LC03OTMxOTI0OSwtMTMwNz
+U0OTA5NF19
 -->
