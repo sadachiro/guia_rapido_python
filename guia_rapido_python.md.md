@@ -22,9 +22,14 @@ set([1,2,3,4,4,4])
 list(set([1,2,3,4,4,4]))
 [1, 2, 3, 4]
 ```
+**** - remover caracteres especiais
+```python
+# --------------------------------------------------
+```
+
+
 
 ---
-
 **** - 
 ```python
 # --------------------------------------------------
@@ -36,6 +41,5 @@ list(set([1,2,3,4,4,4]))
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc1NTc5MDAsLTEzMDc1NDkwOTRdfQ
-==
+eyJoaXN0b3J5IjpbNjIxMTE0MDczLC0xMzA3NTQ5MDk0XX0=
 -->
