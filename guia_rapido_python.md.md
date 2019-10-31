@@ -22,11 +22,12 @@ set([1,2,3,4,4,4])
 list(set([1,2,3,4,4,4]))
 [1, 2, 3, 4]
 ```
-**normalize** - remover caracteres especiais
+**normalize** - remove lista de caracteres especiais e caixa baixa
 ```python
+
 lista_especial = '~!@#$%^&*()_+|`-=\\[]{};:\',./<>?*-+"\n\t'
-for c in lista_especial
-	str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
+for c in lista_especial:
+	print(str(normalize('NFKD', 'coloque aqui seu texto áàãâäéèêëíìîïóòõôöúùûüçñÀÁÃÂÉÊÍÓÕÔÚÜÇ').encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, ''))
 # --------------------------------------------------
 ```
 
@@ -44,6 +45,6 @@ for c in lista_especial
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTMxNDg5NSwtNzkzMTkyNDksLTEzMD
-c1NDkwOTRdfQ==
+eyJoaXN0b3J5IjpbODAzOTM3NDM5LC03OTMxOTI0OSwtMTMwNz
+U0OTA5NF19
 -->
