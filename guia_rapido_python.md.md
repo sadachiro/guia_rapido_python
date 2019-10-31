@@ -14,7 +14,7 @@ print('*'*50)
 # --------------------------------------------------
 ```
 ---
-**set** - Remover items iguais
+**set** - remover items iguais
 ```python
 set([1,2,3,4,4,4])
 {1, 2, 3, 4}
@@ -22,8 +22,9 @@ set([1,2,3,4,4,4])
 list(set([1,2,3,4,4,4]))
 [1, 2, 3, 4]
 ```
-**** - remover caracteres especiais
+**normalize** - remover caracteres especiais
 ```python
+str(normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII')).lower().replace(c, '')
 # --------------------------------------------------
 ```
 
@@ -41,5 +42,5 @@ list(set([1,2,3,4,4,4]))
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMTE0MDczLC0xMzA3NTQ5MDk0XX0=
+eyJoaXN0b3J5IjpbLTc5MzE5MjQ5LC0xMzA3NTQ5MDk0XX0=
 -->
