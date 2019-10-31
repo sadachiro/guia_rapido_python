@@ -5,6 +5,7 @@
 
 **print** - Como usar
 ```python
+
 ```
 ---
 **set** - Remover items iguais
@@ -13,11 +14,18 @@ set([1,2,3,4,4,4])
 {1, 2, 3, 4}
 ```
 
+---
+
+**** - 
+```python
+
+```
+---
 
 
 
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDk1NTA1OSwtMTMwNzU0OTA5NF19
+eyJoaXN0b3J5IjpbMzM3NDk1NzQwLC0xMzA3NTQ5MDk0XX0=
 -->
