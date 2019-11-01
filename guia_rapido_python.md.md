@@ -22,7 +22,7 @@ set([1,2,3,4,4,4])
 list(set([1,2,3,4,4,4]))
 [1, 2, 3, 4]
 ```
-
+---
 **normalize** - remove lista de caracteres especiais e caixa baixa
 ```python
 from unicodedata import normalize
@@ -32,7 +32,8 @@ for c in lista_especial:
 print(texto_limpo)
 # --------------------------------------------------
 ```
-
+---
+**testar**
 ```python
 import string
 def clean(instr):
@@ -51,6 +52,6 @@ def clean(instr):
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTAwMDc4NCwtMTM0OTY0MTUzOCwtNz
+eyJoaXN0b3J5IjpbLTg3MDM5MzYzNywtMTM0OTY0MTUzOCwtNz
 kzMTkyNDksLTEzMDc1NDkwOTRdfQ==
 -->
