@@ -33,7 +33,11 @@ print(texto_limpo)
 # --------------------------------------------------
 ```
 
-
+```python
+import string
+def clean(instr):
+    return instr.translate(None, string.punctuation + ' ')
+```
 
 ---
 **** - 
@@ -47,6 +51,6 @@ print(texto_limpo)
 ---
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk2NDE1MzgsLTc5MzE5MjQ5LC0xMz
-A3NTQ5MDk0XX0=
+eyJoaXN0b3J5IjpbLTM4OTAwMDc4NCwtMTM0OTY0MTUzOCwtNz
+kzMTkyNDksLTEzMDc1NDkwOTRdfQ==
 -->
